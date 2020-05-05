@@ -1,0 +1,262 @@
+body {
+    overflow-x: hidden
+}
+
+#logo {
+    height: 54px;
+    width: 180px;
+}
+
+#logo_section {
+    margin-left: 7%;
+}
+
+#navigation_section {
+    margin-right: 2%;
+}
+
+#buttons_section {
+    margin-right: 5%;
+}
+
+#sign_up, #sign_up_1 {
+    line-height: 1.8em;
+    border-radius: 0px;
+    font-family: sans-serif;
+}
+
+#sign_up {
+    background-color: #2ED6EB;
+    margin: 0 10px 0 10px;
+}
+
+#sign_up_1 {
+    background-color: #9ACD32;
+}
+
+#now_courses {
+    border-bottom: 3px solid #9ACD32;
+}
+
+#home, #now_courses, #blog, #forum, #contact {
+    color: grey;
+}
+
+p {
+    margin: 0 0 0 0;
+    color: black;
+}
+
+
+#main_section {
+    box-shadow: 0px 0px 3px #000000;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid, #feature_cours_img_section {
+    position: relative;
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*________________________________________________________*/
+
+#personal_section {
+    height: auto;
+    width: 100%;
+}
+
+.square {
+    height: 8px;
+    width: 8px;
+    border: 1px solid grey;
+}
+
+.vl_1 {
+    border-left: 1px solid grey;
+    height: 20%;
+}
+
+.vl_2 {
+    border-left: 1px solid grey;
+    height: 35%;
+}
+
+.vl_3 {
+    border-left: 1px solid grey;
+    height: 22.5%;
+}
+
+.vl_4 {
+    border-left: 1px solid grey;
+    height: 22.5%;
+}
+
+.m_q {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main {
+    width: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+/*________________________________________________________*/
+
+#footer_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 27em;
+    width: 100%;
+    margin-top: 5em;
+    background-color: #555;
+}
+
+#footer_section > * {
+    color: white;
+}
+
+p.serif {
+    margin-top: 2em;
+    font-family: "Times New Roman", Times, serif;
+}
+
+#now_home_1, #courses_1, #blog_1, #forum_1, #contact_1 {
+    color: white;
+}
+
+.hr_1 {
+    border: 1px solid grey;
+    width: 60px;
+}
+
+.fa {
+    padding: 12px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 5px
+}
+
+.fa:hover {
+    background-color: #9ACD32;
+    color: white;
+}
+
+.fa {
+    background: #202020;
+    color: white;
+}
+
+#circle_image {
+    height: 40px;
+    width: 40px;
+    border: 1px solid #555;
+    border-radius: 50%
+}
+
+.del {
+    font-size: 20px;
+    color: grey;
+}
+
+.price {
+    font-size: 30px;
+    color: #FF3C3C;
+}
+
+.coursesname {
+    font-size: 1.5em;
+    color: black;
+    font-weight: bold;
+}
+
+#cours_image {
+    height: 170px;
+    width: 100%;
+}
+
+#art_section {
+    padding: 0 12.5% 0 12.5%;
+    margin-bottom: 5em
+}
+
+#img_sec {
+    padding: 0
+}
+
+#recomended_image {
+    height: 300px;
+    width: 100%;
+}
+
+.rating {
+    float: left;
+}
+
+.rating:not(:checked) > input {
+    position: absolute;
+    top: -9999px;
+    clip: rect(0, 0, 0, 0);
+}
+
+.rating:not(:checked) > label {
+    float: right;
+    width: 1em;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 300%;
+    color: #ddd;
+}
+
+.rating:not(:checked) > label:before {
+    content: '★ ';
+}
+
+.rating > input:checked ~ label {
+    color: yellow;
+
+}
+
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+    color: yellow;
+
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+    color: yellow;
+}
+
+.rating > label:active {
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+
+#see_courses {
+    border: 1px solid #9ACD32;
+    background: none;
+}
+
+#see_courses:hover {
+    background-color: #9ACD32
+}
+
